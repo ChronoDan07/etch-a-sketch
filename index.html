@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class = "title">
+            <h2>ETCH-A-SKETCH</h1>
+        </div>
+        <div class = "main-container">
+        <div class = "menu">
+            <input type="color" id="color-pick" value="#000000">
+            <button id="random">RNG color</button>
+            <button id="dodge">Dodge</button>
+            <button id="burn">Burn</button>
+            <button id="delete">Eraser</button>
+            <button id="grid-togg">Toggle grid</button>
+            <div class="gridsz">Grid size:</div>
+            <div class="grid-val">16 x 16</div>
+            <input id="gridrange" value="16">
+            <button id="default" onclick="updateGrid(),createDivs()">Start / Clear</button>
+        </div>
+        <div id= "sec-container">
+        </div>
+        
+        
+
+        </div>
+        </div>
+        <div class="footer">Copyright © ChronoDan07 2023</div>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="etch.js"></script>
+    </body>
+</html>
