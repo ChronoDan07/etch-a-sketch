@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: rgb(54, 83, 108);
+}
+
+
+
+.title {
+display: flex;
+justify-content: center;
+background-color: #1F2937;
+color: aliceblue;
+}
+
+button {
+width: 150px;
+height: auto;
+font-size: 18px;
+border-radius: 8px;
+
+}
+
+.grid-val,.gridsz{
+    font-size: 20px;
+}
+
+#gridrange{
+width: 50px;
+}
+#ent{
+    width: 150px;
+}
+
+.menu {
+display: flex;
+background-color: #3e72bb;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+gap: 12px;
+margin: 20px;
+height: 650px;
+width: 250px;
+border: 8px solid black;
+border-radius: 15px;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: rgb(54, 83, 108);
+    flex:auto;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+
+#sec-container {
+display: flex;
+width: 700px;
+height: 700px;
+background-color: white;
+margin: 20px;
+border: 8px solid black;
+flex-wrap: wrap;
+
+
+
+}
+
+.toggled {
+    background-color: #1F2937;
+}
+
+
+.footer {
+    display: flex;
+    position: fixed;
+    background-color: #1F2937;
+    color: aliceblue;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 40px;
+
+}
+
+#color-pick {
+    height: 50px;
+    width: 50px;
+
+}
+
+.divses {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 700px;
+    width: 700px;
+}
